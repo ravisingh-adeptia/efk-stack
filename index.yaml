@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  efk-stack:
+  - apiVersion: v2
+    appVersion: 7.8.0
+    created: "2023-01-05T14:41:18.7646307+05:30"
+    dependencies:
+    - name: elasticsearch
+      repository: https://helm.elastic.co
+      version: 7.8.0
+    - name: kibana
+      repository: https://helm.elastic.co
+      version: 7.8.0
+    - name: fluentd
+      repository: https://fluent.github.io/helm-charts
+      version: 0.2.10
+    description: EFK Logging Stack for kubernetes
+    digest: e79b2f0bf8a5c211f0f54363187fbf75a1488d6a2bcf2554eb2bbee04a4ef46a
+    name: efk-stack
+    type: application
+    urls:
+    - efk-stack-7.8.0.tgz
+    version: 7.8.0
+generated: "2023-01-05T14:41:18.7494183+05:30"
